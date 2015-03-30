@@ -1,4 +1,4 @@
-var arr = [0,1,2,3,4,5,6,7,8,9,10];
+var arr = [0,1,2,3,4,5,6,7,8,9,10,13];
 var x = 5;
 var a = 4;
 var b = 10;
@@ -16,7 +16,7 @@ function foobar(arr, x, a, b) {
 	  	console.log("lower");
 	    return foobar(arr, x, mid+1, b);
 	  } else {
-	    console.log(mid);// mid;
+	    console.log(mid);
 	  }
 }
 
